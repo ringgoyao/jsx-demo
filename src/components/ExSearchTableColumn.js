@@ -4,8 +4,8 @@ export default defineComponent({
     scope: Object,
     render: Function
   },
-  render(h) {
-    return this.render(h, this.scope)
+  render() {
+    return this.render(this.scope)
   }
 })
 // export default {
